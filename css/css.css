@@ -1,0 +1,29 @@
+body{
+    margin:0;
+}
+#page{
+    width:960px;
+    height:42px;
+    margin:30px auto;
+    border-left:1px solid #e8e8e8;
+}
+#page a,#page span{
+    border:1px solid #e8e8e8;
+    border-left:none;
+    color:#727272;
+    text-decoration: none;
+    padding:0 20px;
+    height:40px;
+    text-align: center;
+    line-height:40px;
+    float:left;
+}
+#page a.active{
+    background:#63a8e9;
+    color:#fff;
+}
+#page span.disable{
+    border:1px solid #ccd5db;
+    color:#ccd5db;
+    cursor:default;
+}
